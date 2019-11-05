@@ -1,0 +1,18 @@
+{
+    "name": "camille/ie-bdd-fleet",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Camille Hodoul",
+            "email": "chodoul@1egal2.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "behat/behat": "^3.5",
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": { "MyFleet\\": "src/" }
+    }
+}
